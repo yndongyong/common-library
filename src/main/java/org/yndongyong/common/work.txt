@@ -1,0 +1,25 @@
+2015/10/08
+1.完成了自定义的头布局，ActionBar;
+2.集成AndroidAnnotations，搭建了AATemplate模板类。
+
+2015/10/10
+1.封装okhttp，实现get,post,文件上传，下载，图片异步显示(可根据imageview的大小，自动压缩)
+2.ResultCallback模板(为doInbackground实现重载)，实现不同的刷新加载效果，可以通过实现resultcallbck实现
+    a.实现带progressDialog的ResultCallback模板
+3.统一的BaseAdapter,还集成了universal-Image-loader
+4.xListview 
+6.提示的dialog
+
+TODO ：
+ 5.swiperefreshLayout
+ 
+ 2015/12/16
+ 重构改包，应该只包含和view相关的；utils；
+ 网络的应该单独放包。
+ shotToast应该放在utils中；
+ 
+ 
+
+
+
+
